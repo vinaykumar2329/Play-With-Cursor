@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy';
+}
+
+#main{
+  width: 100%;
+  background-color:black;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: rgb(201, 195, 195);
+  font-size: 50px;
+  
+}
+#crsr{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(235, 235, 227);
+  color: #ffff;
+  position: absolute;
+  transition: all linear 0.3s;
+  mix-blend-mode: difference;
+}
